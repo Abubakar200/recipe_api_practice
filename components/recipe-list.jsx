@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const RecipeList = async ({ recipeList }) => {
@@ -23,10 +22,10 @@ const RecipeList = async ({ recipeList }) => {
                 </h3>
 
                 <p className="mt-2 max-w-sm text-gray-700 font-semibold">
-                  Cuisine: {recipe.cuisine} 
+                  Cuisine: {recipe.cuisine}
                 </p>
                 <p className="mt-2 max-w-sm text-gray-700 font-semibold">
-                 Rating: {recipe.rating}
+                  Rating: {recipe.rating}
                 </p>
               </Link>
             ))
