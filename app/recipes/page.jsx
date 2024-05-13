@@ -1,4 +1,3 @@
-'use client'
 import RecipeList from "@/components/recipe-list";
 import Link from "next/link";
 const fetchData = async () => {

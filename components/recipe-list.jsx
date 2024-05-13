@@ -8,6 +8,7 @@ const RecipeList = async ({ recipeList }) => {
         {recipeList && recipeList.length > 0
           ? recipeList.map((recipe) => (
               <Link
+                key={recipe.id}
                 href={`/recipes/${recipe.id}`}
                 className="border p-4 shadow-md"
               >
